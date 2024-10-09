@@ -88,14 +88,14 @@ QSplashScreen QLabel {
 
 
 QMenu {
-	border-top: 2px solid #08993E;
+	border-top: 2px solid #c600c9;
 	background-color: #14001c;
 	font-size: 11px;
 }
 
 QMenu::separator {
 	height: 1.0px;
-	background: #323940;
+	background: #292033;
 	margin-left: 0x;
 	margin-right: 0px;
 }
@@ -109,7 +109,7 @@ QMenu::item {
 QMenu::item:selected {
 	color: #d1d8e4;
 	font-weight: normal;
-	background-color: #21272b;
+	background-color: #1a003b;
 }
 
 QMenu::item:disabled {
@@ -182,7 +182,7 @@ GroupBox {
 VisualizationWidget  {
 	background: none;
 	border: none;
-	qproperty-normalColor: rgb(71, 253, 133);
+	qproperty-normalColor: rgb(90, 0, 255);
 	qproperty-warningColor: rgb(255, 192, 64);
 	qproperty-clippingColor: rgb(255, 64, 64);
 }
